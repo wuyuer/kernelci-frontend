@@ -1,7 +1,7 @@
 [local]
 #kernelci-frontend
 #hisilicon-ci-frontend
-192.168.0.71
+192.168.1.108
 
 [all]
 #kernelci.org
