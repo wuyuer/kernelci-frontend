@@ -7,6 +7,7 @@
     - build-essential
     - git
     - python-pip
+    - python-pycurl  
     - python-apt
     - python2.7-dev
     - python-virtualenv

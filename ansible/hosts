@@ -1,7 +1,9 @@
 [local]
-kernelci-frontend
+#kernelci-frontend
+#hisilicon-ci-frontend
+192.168.0.71
 
 [all]
-kernelci.org
-status.armcloud.us
-staging.status.armcloud.us
+#kernelci.org
+#status.armcloud.us
+#staging.status.armcloud.us

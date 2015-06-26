@@ -40,6 +40,10 @@
     - install
     - app
 
+- name: Creates directory
+  file: path=/etc/linaro
+          state=directory
+
 - name: Copy app settings file
   template: src=flask_settings
             dest=/etc/linaro/kernelci-frontend.cfg
