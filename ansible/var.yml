@@ -1,7 +1,7 @@
 ---
  backend_url: http://192.168.1.108:8888/
  base_url: http://192.168.1.108
- backend_token: 550b7046-a562-49e5-a009-d21d6c601534
- secret_key: none
+ backend_token: 3eda8013-da37-42ea-b9a0-7a66badd1b68
+ secret_key: 123456
  file_server: http://htsat.vicp.cc:808/
  google_analytics: none
