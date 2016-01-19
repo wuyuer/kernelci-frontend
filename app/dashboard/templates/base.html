@@ -7,15 +7,15 @@
     <meta name="description" content="Kernel CI - Builds and boots reporting dashboard">
     <meta name="robots" content="index,follow,nosnippet">
     <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="/static/js/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="/static/js/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     {%- block meta -%}{%- endblock %}
     <title>{%- block title %}{%- endblock %}</title>
     {%- block head %}
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="/static/css/linaro-base-1.0.20.css">
     {%- endblock %}
 </head>
@@ -105,10 +105,10 @@
     </footer>
 <input type="hidden" id="date-range" value="{{ config['DATE_RANGE'] }}">
 {%- block scripts %}
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/sprintf/1.0.1/sprintf.min.js"></script>
+<script type="text/javascript" src="/static/js/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/static/js/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
+<script type="text/javascript" src="/static/js/ajax/libs/sprintf/1.0.1/sprintf.min.js"></script>
 <script type="text/javascript" src="/static/js/jquery.hotkeys-1.0.min.js"></script>
 <script type="text/javascript" src="/static/js/jquery.hotkeymap-1.0.min.js"></script>
 <script type="text/javascript" src="/static/js/linaro-base-1.0.8.js"></script>
@@ -154,7 +154,7 @@ $(document).ready(function() {
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','/static/js/analytics.js','ga');
   ga('create', '{{ analytics }}', 'auto');
   ga('send', 'pageview');
 </script>
